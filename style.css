@@ -1,5 +1,5 @@
 .card-body {
-  background-image: url("https://img.freepik.com/free-photo/white-cloud_74190-3512.jpg?w=1800&t=st=1677972910~exp=1677973510~hmac=6e90f7cb461dae7d1f8ea1e364466dd6c620a2a52d24afc04898647bfda96299");
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/070/749/original/blue_sky.jpg?1678398683");
 }
 .city-name {
   margin-top: 15px;
@@ -13,6 +13,8 @@
   background: rgba(232, 232, 224, 0.6);
 }
 .card {
+  display: block;
+  margin: 0 auto;
   margin-top: 30px;
 }
 .row {
@@ -100,4 +102,13 @@ ul {
 }
 .table {
   font-size: 10px;
+}
+footer {
+  text-align: center;
+  margin-top: 15px;
+}
+.footer {
+  text-decoration: none;
+  color: rgb(14, 14, 244);
+  font-weight: 500;
 }
